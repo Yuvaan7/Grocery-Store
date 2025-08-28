@@ -1,8 +1,16 @@
 import streamlit as st
 
 # Display the logo
-st.image("download", width=500)  # Adjust width if needed
+from PIL import Image
 
+# Load your image
+logo = Image.open("download")
+
+# Create three columns, middle one to center the image
+col1, col2, col3 = st.columns([1, 2, 1])
+
+with col2:
+    st.image(logo, width=200)
 
 
 # Apple input
