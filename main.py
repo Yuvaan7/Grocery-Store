@@ -1,9 +1,9 @@
 import streamlit as st
 
 # Display the logo
-st.image("download.png", width=200)  # Adjust width if needed
+st.image("download.png", width=500)  # Adjust width if needed
 
-st.title("🛒 Grocery Shopping")
+
 
 # Apple input
 apple_kg = st.number_input("How many apples do you want in kg? (1kg = ₹200):", min_value=0.0, step=0.1)
