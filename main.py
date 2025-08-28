@@ -34,7 +34,7 @@ if chips >= 0:
     Chips = f"chips = {chips}"
 
 # Coupon
-coupon = st.text_input("Do you have any coupon? (Type 'flat50off' if you have)")
+coupon = st.text_input("Do you have any coupon?")
 
 # Membership
 membership = st.radio("Do you want to buy grocery+ membership for ₹200/month?", ["yes", "no"])
