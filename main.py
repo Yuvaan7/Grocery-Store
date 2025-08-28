@@ -77,4 +77,5 @@ if st.button("Calculate Total"):
 
     # Address
     address = st.text_input("Enter your delivery address:")
-    st.success(f"Your order will be delivered to: {address}")
+    if address:
+        st.write(f"Your order will be delivered to: {address}")
