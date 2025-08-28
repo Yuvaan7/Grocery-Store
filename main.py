@@ -47,7 +47,7 @@ if st.button("Calculate Total"):
     # Initial total
     total = apple_kg * 200 + capsicum_kg * 90 + onion_kg * 50 + chips * 20
 
-    if coupon == "flat50off": and total>=1000
+    if coupon == "flat50off" and total>=1000:
         total -= 50
         st.success("You saved ₹50 using the coupon!")
 
