@@ -1,7 +1,7 @@
 import streamlit as st
 
 # Display the logo
-st.image("download.jpeg", width=500)  # Adjust width if needed
+st.image("download", width=500)  # Adjust width if needed
 
 
 
