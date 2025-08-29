@@ -50,6 +50,9 @@ if st.button("Calculate Total"):
     if coupon == "flat500off" and total>=1000:
         total -= 500
         st.success("You saved ₹500 using the coupon!")
+        if coupon=="admin":
+            st.success("You saved ",total," using the coupon!")
+            total=0
 
     if membership == "yes":
         total += 150  # ₹200 membership - ₹50 off benefit = ₹150 net extra charge
