@@ -50,7 +50,8 @@ if st.button("Calculate Total"):
     if coupon == "flat500off" and total>=1000:
         total -= 500
         st.success("You saved ₹500 using the coupon!")
-        if coupon=="admin":
+        elif: 
+            coupon=="admin":
             st.success("You saved ",total," using the coupon!")
             total=0
 
